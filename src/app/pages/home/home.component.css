@@ -1,0 +1,143 @@
+.logo-section {
+    width: 222px;
+  
+    margin: auto !important;
+    margin-right: 60px;
+    margin-top: -12px;
+  }
+  
+  #logo-first {
+    font-size: 90px;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  
+  #logo-second {
+    font-size: 20px;
+  }
+  
+  #logo-third {
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-size: 13px;
+    text-align: justify;
+  }
+  
+  .logo-principal {
+    float: left;
+  }
+  
+  .logo-description {
+    float: right;
+    height: 95px;
+    margin-top: 28px;
+  }
+  
+  .logo-section {
+    margin-top: -35px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .logo-personalization {
+    margin: -38px 0px -14px 121px;
+  }
+  
+  .decoration-line {
+    margin-top: 8px;
+    width: 100%;
+    height: 2px;
+  
+    background-color: #2e7d32;
+  }
+  
+  .decoration-line-2 {
+    margin-top: 2px;
+    width: 100%;
+    height: 1px;
+  
+    background-color: #2e7d32;
+  }
+  
+  .menu-options {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+    width: 492px;
+    height: 300px;
+  }
+  
+  .menu-options-title-style {
+    margin-bottom: 7px;
+  }
+  
+  .menu-options-title {
+    text-align: center;
+    width: 100%;
+  
+    font-size: 22px;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .menu-options-box {
+    width: 250px;
+    height: 125px;
+    overflow: hidden;
+  
+    /* border: 1px solid black; */
+    border-radius: 4px;
+  
+    background-size: 250px;
+  }
+  
+  .box-one {
+    background-image: url('/assets/img/home/image-exam.jpg');
+  }
+  
+  .box-two {
+    background-image: url('/assets/img/home/image-diag.jpg');
+  }
+  
+  .box-three {
+    background-image: url('/assets/img/home/image-pres.jpg');
+  }
+  
+  .box-four {
+    background-image: url('/assets/img/home/image-evolu.jpg');
+  }
+  
+  .menu-options-text {
+    height: 30px;
+    /* border-bottom: 1px solid black; */
+    text-align: left;
+    padding-left: 10px;
+  
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #2e7d32;
+  }
+  
+  .margin-left {
+    margin-left: 20px;
+  }
+  
+  .bottom-box-text {
+    border-bottom: 0;
+    /* border-top: 1px solid black; */
+    bottom: 0;
+  }
+  
+  .bottom-box-image {
+    height: 95px;
+  }
+  
+  a {
+    color: #000000;
+  }
+
+  .row {
+    margin-bottom: 18px;
+  }

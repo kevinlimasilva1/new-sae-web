@@ -1,27 +1,13 @@
-# NewSaeWeb
+# Novo Sae Web!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+WEB FERRAMENTA PARA AUXÍLIO DA PRÁTICA DO ENFERMEIRO. Ferramenta capaz de otimizar o `Processo de Enfermagem`, a fim de melhorar a qualidade e a agilidade na assistência ao paciente.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Introdução
 
-## Code scaffolding
+  O uso de tecnologias no ambiente hospitalar trouxe benefícios tanto para a área administrativa quanto no cuidado direto do paciente no que se refere à interpretação do eletrocardiograma, prescrição, relatórios de resultados e sistema de prevenção. Além disso, os profissionais de saúde também fazem uso do computador e dispositivos móveis no intuito de facilitar a busca de informações que antes era restrito aos livros e artigos impressos.
+   O trabalho do enfermeiro, consiste em uma série de atribuições que exigem uma assistência segura, efetiva e de qualidade. Uma destas atribuições se trata do Processo de Enfermagem (P.E.), que é uma ferramenta metodológica utilizada para tornar a assistência de enfermagem organizada e sistemática, além de contribuir para o fortalecimento da profissão enquanto ciência, organizando-se em cinco etapas: *a Coleta de Dados, o Diagnóstico de Enfermagem, o Planejamento de Enfermagem, a Implementação e a Avaliação de Enfermagem*. A execução deste Processo exige raciocínio clínico, tomada de decisão e tempo, principalmente no que se refere aos registros de enfermagem.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologia
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+  Para a criação dessa web ferramenta foi utilizado o framework `Angular` juntamente com as tecnologias de criação de páginas web: `HTML`, `CSS` e `JavaScript` para a criação da visualização do usuário, e o framework `Django` juntamente com a linguagem `Python` para o processamento e integração com o banco de dados.

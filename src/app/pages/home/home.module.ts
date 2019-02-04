@@ -5,8 +5,8 @@ import { HomeRoutingModule } from './home.routing.module';
 import { DiagHomeComponent } from '../diagnostic-page/diag-home/diag-home.component';
 import { EvolHomeComponent } from '../evolution-page/evol-home/evol-home.component';
 import { ExamHomeComponent } from '../exam-page/exam-home/exam-home.component';
-import { PresHomeComponent } from './../prescription-page/pres-home/pres-home.component';
 import { HomeComponent } from './home.component';
+import { MenuComponent } from './../../controls/menu/menu.component';
 
 @NgModule({
   imports: [
@@ -18,10 +18,8 @@ import { HomeComponent } from './home.component';
     DiagHomeComponent,
     EvolHomeComponent,
     ExamHomeComponent,
-    PresHomeComponent
-  ],
-  exports: [
-    HomeComponent
+    MenuComponent
   ]
 })
+
 export class HomeModule { }

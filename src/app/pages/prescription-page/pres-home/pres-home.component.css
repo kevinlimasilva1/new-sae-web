@@ -1,0 +1,54 @@
+.center-box {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 360px;
+    width: 1100px;
+}
+
+.prescriptionButton {
+    height: 80px;
+    border: 0;
+    font-size: 16px;
+    background-color: #81C784;
+}
+
+.prescription {
+    text-align: left;
+    overflow: auto;
+
+    height: 315px;
+    width: 100%;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.prescription a {
+    margin-right: 20px;
+}
+
+.prescription button {
+    margin-bottom: 15px;
+}
+
+.page-title {
+    font-size: 30px;
+    font-weight: bold;
+
+    padding-right: 0;
+}
+
+.back-link {
+    text-align: right;
+
+    margin-top: 17px;
+    padding-left: 0;
+}
+
+a {
+    color: #000000;
+}

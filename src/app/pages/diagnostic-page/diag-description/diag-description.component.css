@@ -1,0 +1,141 @@
+.diag-box {
+    width: 700px;
+    height: 440px;
+    text-align: center;
+  
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+  
+.center-top {
+    margin: auto;
+    margin-bottom: 2px;
+}
+  
+.center-box {
+    height: 268px;
+    text-align: left;
+  
+    padding: 18px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  
+    background-color: white;
+}
+  
+.center-button {
+    width: 48%;
+    height: 65px;
+}
+  
+.center-button#btn-a {
+    background-color: #0494dd;
+}
+  
+.center-button#btn-b {
+    background-color: #02a167;
+}
+  
+.center-button-margin {
+    margin-left: 13px;
+}
+  
+.center-input {
+    margin-top: -10px;
+}
+  
+.not-allowed {
+    cursor: not-allowed;
+}
+  
+.page-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+  
+.small-text {
+    margin-top: 22px;
+    font-size: 10px;
+}
+  
+.back-link {
+    text-align: right;
+    margin-top: 17px;
+}
+  
+.back-link a {
+    color: #2e7d32;
+    font-weight: bold;
+}
+  
+.no-padding {
+    padding: 0;
+}
+  
+.no-padding-right {
+    padding-right: 0;
+}
+  
+.no-padding-left {
+    padding-left: 0;
+}
+  
+a {
+    color: #000000;
+}
+  
+.col-rel-ca {
+    border-left: 1px solid black;
+    padding-left: 35px;
+}
+  
+.margin-top {
+    margin-top: 10px;
+}
+  
+span {
+    font-weight: bold;
+}
+  
+.no-padding-no-margin {
+    padding: 0;
+    margin: 0;
+}
+  
+.relation-area,
+.caracterize-area {
+    margin-top: 4px;
+    height: 90px;
+    overflow: auto;
+}
+  
+.relation-area label,
+.caracterize-area label {
+    color: black;
+}
+  
+.dominion-area {
+    height: 55px;
+    overflow: auto;
+}
+  
+.class-area {
+    height: 55px;
+    overflow: auto;
+}
+  
+.name-area {
+    height: 38px;
+    overflow: auto;
+}
+  
+.description-area {
+    height: 60px;
+    overflow: auto;
+}

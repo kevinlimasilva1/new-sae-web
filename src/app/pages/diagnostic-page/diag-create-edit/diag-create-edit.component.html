@@ -1,0 +1,80 @@
+<div class="diag-box">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="side-area">
+          Relacionado a:
+          <div class="side-box">
+            <button class="btn side-box-add">ADICIONAR</button>
+            <div class="row middle-top">
+              <div class="col-9 no-padding">
+                <input class="side-box-input" placeholder="Adicionar relacionamentos">
+              </div>
+              <div class="col-3 no-padding align-right">
+                <button class="btn side-box-button">-</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="row middle-top">
+          <div class="col page-title">Diagnóstico</div>
+          <div class="col small-text">CRIAR</div>
+          <div class="col back-link no-padding-right">
+            <a routerLink="/home/diagnostic/dominion/1/class/1/diagnostic">voltar</a>
+          </div>
+        </div>
+        <div class="middle-box">
+          <div class="row middle-top">
+            <div class="col-3 no-padding-left no-padding-right">
+              CÓDIGO
+              <input class="middle-input" placeholder="0000" disabled>
+            </div>
+            <div class="col no-padding-right">
+              DOMÍNIO
+              <input class="middle-input" placeholder="Não específicado" disabled>
+            </div>
+            <div class="col no-padding-right">
+              CLASSE
+              <input class="middle-input" placeholder="Não específicado" disabled>
+            </div>
+          </div>
+          <div class="col no-padding-left no-padding-right">
+            NOME
+            <input class="middle-input" placeholder="Nome do diagnóstico">
+          </div>
+          <div>
+            DESCRIÇÃO
+            <textarea class="materialize-textarea middle-input" placeholder="Adicione uma descrição..."></textarea>
+          </div>
+        </div>
+        <div>
+          <button class="btn middle-button" id="btn-a">ADICIONE AO
+            <br/> RELATÓRIO</button>
+          <a routerLink="/diagnostico/classe/diagnostico">
+            <button class="btn middle-button middle-button-margin" id="btn-b">SALVAR</button>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="side-area">
+          Caracterizado por:
+          <div class="side-box">
+            <button class="btn side-box-add">ADICIONAR</button>
+            <div class="row middle-top">
+              <div class="col-9 no-padding">
+                <input class="side-box-input" placeholder="Adicionar características">
+              </div>
+              <div class="col-3 no-padding align-right">
+                <button class="btn side-box-button">-</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-menu></app-menu>

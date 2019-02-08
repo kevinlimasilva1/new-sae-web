@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './pres-home.component.html',
   styleUrls: ['./pres-home.component.css']
 })
+
 export class PresHomeComponent implements OnInit {
 
   constructor() { }

@@ -2,15 +2,18 @@ import {Routes, RouterModule} from '@angular/router';
 import { NgModule } from '@angular/core';
 
 import { PresHomeComponent } from './pres-home.component';
-import { PresCreateComponent } from './../pres-create/pres-create.component';
+import { PresCreateEditComponent } from './../pres-create-edit/pres-create-edit.component';
+import { PresDescriptionComponent } from './../pres-description/pres-description.component';
 
-const homeRoutes: Routes = [
+const presRoutes: Routes = [
     { path: '', component: PresHomeComponent },
-    { path: 'create', component: PresCreateComponent }
+    { path: ':id', component: PresDescriptionComponent },
+    { path: 'create', component: PresCreateEditComponent },
+    { path: ':id/edit', component: PresCreateEditComponent }
 ];
 
 @NgModule ({
-    imports: [RouterModule.forChild(homeRoutes)],
+    imports: [RouterModule.forChild(presRoutes)],
     exports: [RouterModule]
 })
 

@@ -1,5 +1,5 @@
-.diag-box {
-    width: 80%;
+.prescription-box {
+    width: 400px;
     height: 400px;
     text-align: center;
   
@@ -13,24 +13,19 @@
 
 .center-top {
   margin: auto;
-  margin-bottom: 6px;
+  margin-bottom: 2px;
 }
 
 .center-box {
   text-align: left;
 
-  padding: 26px;
+  padding: 18px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   margin-bottom: 10px;
 
-  background-color: white;
-}
-
-.button-area{
-  height: 170px;
-  overflow: auto;
+  background-color: #ffffff;
 }
 
 .center-button {
@@ -61,19 +56,8 @@
 }
 
 .page-title {
-  text-align: left;
-  padding-left: 0;
-
   font-size: 30px;
   font-weight: bold;
-}
-
-.page-subtitle{
-  padding-left: 28px;
-  margin-bottom: 0;
-
-  font-size: 22px;
-  font-family: 'Dancing Script', cursive;
 }
 
 .small-text {
@@ -101,30 +85,6 @@
 
 .no-padding-left {
   padding-left: 0;
-}
-
-.button-box{
-  margin: 10px;
-  height: 65px;
-
-  background-color: #02a167;
-}
-
-.button-create {
-  width: 65px;
-  font-size: 33px;
-  padding: unset;
-
-  border: 2px solid black;
-  background-color: #84DBC0;
-}
-
-.breadcrumbs{
-  color: #D5D5D5;
-}
-
-div.breadcrumbs{
-  font-size: 15px;
 }
 
 a {

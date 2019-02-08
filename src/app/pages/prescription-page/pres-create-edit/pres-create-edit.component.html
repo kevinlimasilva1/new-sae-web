@@ -1,0 +1,33 @@
+<div class="prescription-box">
+  <div class="col">
+    <div class="row center-top">
+      <div class="col page-title">Prescrição</div>
+      <div class="col small-text">CRIAR</div>
+      <div class="col back-link no-padding-right">
+        <a routerLink="/home/prescription">voltar</a>
+      </div>
+    </div>
+    <div class="center-box">
+      <div class="row center-top">
+        <div class="col-3 no-padding-left">
+          CÓDIGO
+          <input class="center-input not-allowed" placeholder="0000" disabled>
+        </div>
+        <div class="col no-padding-right">
+          HORÁRIO
+          <input class="center-input" placeholder="Adicionar horário, Ex.: 4x4">
+        </div>
+      </div>
+      <div>
+        PRESCRIÇÃO
+        <textarea class="materialize-textarea center-input" placeholder="Digite sua prescrição aqui..."></textarea>
+      </div>
+    </div>
+    <div>
+      <button class="btn center-button" id="btn-a">ADICIONE AO <br/> RELATÓRIO</button>
+      <button class="btn center-button center-button-margin" id="btn-b">SALVAR</button>
+    </div>
+  </div>
+</div>
+
+<app-menu></app-menu>

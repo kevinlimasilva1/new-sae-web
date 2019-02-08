@@ -1,0 +1,57 @@
+<div class="login-page">
+    <div class="login-block hoverable">
+  
+      <div class="login-logo-section row">
+        <div class="login-principal">
+          <span id="login-logo-first">S.A.E.</span>
+          <div class="personalization">
+            <span id="login-logo-second">web</span>
+          </div>
+        </div>
+        <div class="login-description">
+          <span id="login-logo-third">Sistematização
+            <br>da assistência
+            <br>de Enfermagem
+          </span>
+        </div>
+      </div>
+  
+      <div class="login-section row">
+        <form class="form-login">
+          <div class="row">
+            <div class="input-field">
+              <input type="text" class="validate center-align" id="login-input" [ngbTooltip]="loginContent" placement="right">
+              <label for="login-input">Usuário</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field">
+              <input type="password" class="validate center-align" id="password-input" [ngbTooltip]="passwordContent" placement="left">
+              <label for="password-input">Senha</label>
+            </div>
+          </div>
+        </form>
+  
+        <div class="row">
+          <span id="login-remember">
+            <a href="#">Não lembra +? Clique aqui.</a>
+          </span>
+        </div>
+  
+        <ng-template #loginContent>
+          <div class="login-box">
+            Preencha as informações para se cadastrar.
+          </div>
+        </ng-template>
+        <ng-template #passwordContent>
+          <div class="password-box">
+            Precione <code><b>enter</b></code> para entrar no sistema.
+          </div>
+        </ng-template>
+      </div>
+  
+    </div>
+  </div>
+  
+  <div class="horizontal-line"></div>
+  

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PresCreateComponent } from './pres-create.component';
+import { DiagClassComponent } from './diag-class.component';
 
-describe('PresCreateComponent', () => {
-  let component: PresCreateComponent;
-  let fixture: ComponentFixture<PresCreateComponent>;
+describe('DiagClassComponent', () => {
+  let component: DiagClassComponent;
+  let fixture: ComponentFixture<DiagClassComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PresCreateComponent ]
+      declarations: [ DiagClassComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PresCreateComponent);
+    fixture = TestBed.createComponent(DiagClassComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

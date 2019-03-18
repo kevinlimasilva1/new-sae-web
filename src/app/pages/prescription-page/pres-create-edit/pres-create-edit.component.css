@@ -31,16 +31,14 @@
 .center-button {
   width: 48%;
   height: 65px;
-
-  
 }
 
 .center-button#btn-a{
-    background-color: #0494dd;
+  background-color: #0494dd;
 }
 
 .center-button#btn-b{
-    background-color: #02a167;
+  background-color: #02a167;
 }
 
 .center-button-margin {

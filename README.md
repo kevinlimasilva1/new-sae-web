@@ -1,13 +1,15 @@
-# Novo Sae Web!
+# New Sae Web!
+_This was a tool created back in 2018 for participation in a scientific congress._
 
-WEB FERRAMENTA PARA AUXÍLIO DA PRÁTICA DO ENFERMEIRO. Ferramenta capaz de otimizar o `Processo de Enfermagem`, a fim de melhorar a qualidade e a agilidade na assistência ao paciente.
 
 
-## Introdução
+WEB TOOL TO ASSIST THE PRACTICE OF NURSES. Tool capable of optimizing the `Nursing Process` in order to improve the quality and agility of patient care.
 
-  O uso de tecnologias no ambiente hospitalar trouxe benefícios tanto para a área administrativa quanto no cuidado direto do paciente no que se refere à interpretação do eletrocardiograma, prescrição, relatórios de resultados e sistema de prevenção. Além disso, os profissionais de saúde também fazem uso do computador e dispositivos móveis no intuito de facilitar a busca de informações que antes era restrito aos livros e artigos impressos.
-   O trabalho do enfermeiro, consiste em uma série de atribuições que exigem uma assistência segura, efetiva e de qualidade. Uma destas atribuições se trata do Processo de Enfermagem (P.E.), que é uma ferramenta metodológica utilizada para tornar a assistência de enfermagem organizada e sistemática, além de contribuir para o fortalecimento da profissão enquanto ciência, organizando-se em cinco etapas: *a Coleta de Dados, o Diagnóstico de Enfermagem, o Planejamento de Enfermagem, a Implementação e a Avaliação de Enfermagem*. A execução deste Processo exige raciocínio clínico, tomada de decisão e tempo, principalmente no que se refere aos registros de enfermagem.
+## Introduction
 
-## Tecnologia
+  The use of technologies in the hospital environment has brought benefits both for the administrative area and for direct patient care with regard to the interpretation of the electrocardiogram, prescription, results reports and the prevention system. In addition, health professionals also make use of computers and mobile devices in order to facilitate the search for information that was previously restricted to books and printed articles.
+   The nurse's work consists of a series of assignments that require safe, effective and quality care. One of these attributions is the Nursing Process, which is a methodological tool used to make nursing care organized and systematic, in addition to contributing to the strengthening of the profession as a science, organized into five stages: *Data Collection, Nursing Diagnosis, Nursing Planning, Nursing Implementation and Assessment*. The execution of this Process requires clinical reasoning, decision making and time, especially with regard to nursing records.
 
-  Para a criação dessa web ferramenta foi utilizado o framework `Angular` juntamente com as tecnologias de criação de páginas web: `HTML`, `CSS` e `JavaScript` para a criação da visualização do usuário, e o framework `Django` juntamente com a linguagem `Python` para o processamento e integração com o banco de dados.
+## Technologies
+
+  To create this web tool, the `Angular` framework was used, together with the technologies for creating web pages: `HTML`, `CSS` and `JavaScript` to create the user view, and the `Django` framework together with the `Python` language for database processing and integration.
